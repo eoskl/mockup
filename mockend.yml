@@ -1,5 +1,5 @@
 models:
-  Post:
+  customer:
     hasMany: [Comment]
     fake:
       _count: 3
@@ -14,7 +14,7 @@ models:
       { custId: 201029066843 },
     ]
   Comment:
-    belongsTo: [Post]
+    belongsTo: [customer]
     fake:
       _count: 25
       email: email
