@@ -1,5 +1,5 @@
 models:
-  post:
+  Customer:
     fake:
       _count: 3
       custId: { int: [12, 20] }
